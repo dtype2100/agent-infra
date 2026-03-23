@@ -66,3 +66,6 @@ Thumbs.db
 
 # TEI model cache
 **/minilm/
+
+# Ollama model cache
+models
