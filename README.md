@@ -94,9 +94,3 @@ infra/
 ├── Makefile
 └── .gitignore
 ```
-
-## 주의사항
-
-- `.env` 파일은 절대 커밋하지 않습니다 (`.gitignore`에 포함됨)
-- 모델 파일 및 DB 데이터 디렉토리는 자동으로 gitignore 처리됩니다
-- 이미지 버전을 변경할 경우 compose 파일의 `image` 태그를 직접 수정합니다
