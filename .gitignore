@@ -1,0 +1,68 @@
+# SSH Keys (never commit private keys)
+**/id_ed25519
+**/id_ed25519.pub
+**/id_rsa
+**/id_rsa.pub
+*.pem
+*.key
+
+# Model binary files (large files — download separately)
+**/*.safetensors
+**/*.bin
+**/*.h5
+**/*.onnx
+**/*.pt
+**/*.pth
+**/onnx/
+**/openvino/
+
+# Ollama model blobs & manifests
+**/models/blobs/
+**/models/manifests/
+
+# Qdrant persistent storage
+**/qdrant_storage/
+
+# DB data directories
+**/mysql_db/
+**/postgres_db/
+
+# Training artifacts
+**/runs/
+**/.cache/
+**/trainer_state.json
+**/train_results.json
+**/eval_results.json
+**/all_results.json
+**/training_args.bin
+
+# Shell history
+**/history
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# DB dump files
+*.sql
+*.sql.gz
+*.dump
+
+# Log files
+*.log
+**/logs/
+
+# TEI model cache
+**/minilm/
